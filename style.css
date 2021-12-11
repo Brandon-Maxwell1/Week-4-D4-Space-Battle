@@ -1,0 +1,56 @@
+/* KEYFRAMES */
+
+@keyframes attack{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+
+
+
+
+/* ID's */
+
+#game{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#storyPage{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    text-align:left;
+}
+
+#spacing{
+    height: 50px;
+}
+
+#hero{
+    width: 55px;
+    height: 25px;
+    background-color: magenta;
+    position: relative;
+    top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CLASSES */
+
+.animate{
+    animation: fire 300ms linear;
+}
